@@ -1,0 +1,32 @@
+{
+  "name": "es6-npm-boilerplate",
+  "author": "Charlie Marsh <crmarsh@princeton.edu>",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "description": "Boilerplate for authoring in ES6 and publishing in ES5.",
+  "scripts": {
+    "test": "jest",
+    "js": "6to5 --modules common src --out-dir dist",
+    "prepublish": "npm run js"
+  },
+  "jest": {
+    "scriptPreprocessor": "jest.conf.js"
+  },
+  "dependencies": {
+    "6to5": "^1.15.0"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crm416/es6-npm-boilerplate.git"
+  },
+  "keywords": [
+    "es6",
+    "transpile",
+    "npm",
+    "jest"
+  ],
+  "license": "MIT"
+}
