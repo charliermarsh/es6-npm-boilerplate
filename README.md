@@ -63,6 +63,10 @@ src
 
 **Even if you choose to include these directories, you should _still_ add an empty `.npmignore` to your repository**. Otherwise, npm will default to a `.npmignore` that includes `dist` and thus the compiled ES5 code won't be published.
 
+## Acknowledgements
+
+Thanks to [Brian LeRoux](https://twitter.com/brianleroux) for his helpful article and talking over some of this with me.
+
 ## License
 
 MIT.
