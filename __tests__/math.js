@@ -10,6 +10,6 @@ describe('square', () => {
 
 describe('cube', () => {
     it('computes the cube of 5 as 125', () => {
-        expect(square(5)).toBe(125);
+        expect(cube(5)).toBe(125);
     });
 });

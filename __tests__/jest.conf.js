@@ -6,7 +6,6 @@ module.exports = {
             src = to5.transform(src, {
                 modules: 'common'
             }).code;
-            console.log(src);
         }
         return src;
     }
