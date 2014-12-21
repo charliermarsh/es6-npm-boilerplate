@@ -1,7 +1,7 @@
 {
   "name": "es6-npm-boilerplate",
   "author": "Charlie Marsh <crmarsh@princeton.edu>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "description": "Boilerplate for authoring in ES6 and publishing in ES5.",
   "scripts": {
@@ -17,9 +17,9 @@
     ]
   },
   "dependencies": {
-    "6to5": "^1.15.0"
   },
   "devDependencies": {
+    "6to5": "^1.15.0",
     "jest-cli": "^0.2.1"
   },
   "repository": {
@@ -32,5 +32,9 @@
     "npm",
     "jest"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crm416/es6-npm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/crm416/es6-npm-boilerplate"
 }
