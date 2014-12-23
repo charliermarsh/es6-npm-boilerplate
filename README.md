@@ -69,4 +69,4 @@ Thanks to [Brian LeRoux](https://twitter.com/brianleroux) for his helpful articl
 
 ## License
 
-MIT.
+CC0.
